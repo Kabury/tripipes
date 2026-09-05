@@ -6,7 +6,7 @@
     "no-pipe-touching"
   ],
   "name": "tripipes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "title": "Tripipes",
   "author": "Kabury",
   "description": "Pipes that carry 3 fluids"
