@@ -1,0 +1,13 @@
+{
+  "factorio_version": "2.1",
+  "dependencies": 
+  [
+    "base >= 2.1",
+    "no-pipe-touching"
+  ],
+  "name": "tripipes",
+  "version": "1.0.0",
+  "title": "Tripipes",
+  "author": "Kabury",
+  "description": "Pipes that carry 3 fluids"
+}
