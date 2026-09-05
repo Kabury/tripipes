@@ -30,7 +30,7 @@ local function on_tripipe_mined(event)
   local position = entity.position
   local surface = entity.surface
 
-  local others = surface.find_entities_filtered{name = {"tripipes-A", "tripipes-B", "ground-tripipes-A", "ground-tripipes-B"}}
+  local others = surface.find_entities_filtered{name = {"tripipes-A", "tripipes-B", "ground-tripipes-A", "ground-tripipes-B"},position = position, radius = 0}
 
   local buffer = event.buffer
   for _,pipe in pairs(others) do
